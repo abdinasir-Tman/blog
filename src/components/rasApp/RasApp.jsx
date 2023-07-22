@@ -1,4 +1,4 @@
-import DataDisplay from "./dataDisplay";
+import DataDisplay from "./DataDisplay";
 
 export default function RasApp() {
   const data = [
