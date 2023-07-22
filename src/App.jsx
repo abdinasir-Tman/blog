@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero";
 import RasApp from "./components/rasApp/RasApp";
 import Business from "./components/business/Business";
 import ForBusiness from "./components/forbusiness/ForBusiness";
+import Future from "./components/future/Future";
+import Footer from "./components/Footer/Footer";
 export const bgContext = createContext();
 function App() {
   const [bgColor, setBgColor] = useState({
@@ -18,6 +20,8 @@ function App() {
         <RasApp />
         <Business />
         <ForBusiness />
+        <Future />
+        <Footer />
       </bgContext.Provider>
     </>
   );

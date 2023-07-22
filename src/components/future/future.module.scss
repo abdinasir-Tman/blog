@@ -1,0 +1,42 @@
+.future {
+  background: linear-gradient(rgba(98, 133, 168, 0.3), rgb(91, 109, 127)),
+    url("https://media.istockphoto.com/id/912338074/photo/woman-sketching-a-business-plan-at-a-creative-office.webp?b=1&s=170667a&w=0&k=20&c=P9GazEP3XgTR0777Q44CNq_ozIpP9_S5zVs_ckAwOUQ=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  padding: 20% 10%;
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: rgb(235, 235, 235);
+    margin-top: 20px;
+  }
+  button {
+    border: none;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: white transparent white transparent;
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: 0.3s linear;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  button:hover {
+    background-color: black;
+    color: #fff;
+    border-color: #fff;
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Business",
+    "links": ["Instructor", "SomGraphy", "Affiliate", "Investing", "Consultant"]
+  },
+  {
+    "id": 2,
+    "title": "Explore",
+    "links": [
+      "Extensions",
+      "SomGraphy",
+      "RAS App",
+      "Live Stock",
+      "Muraajaco App"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Education",
+    "links": ["Study at Sharafdin", "WP Certificate"]
+  },
+  {
+    "id": 4,
+    "title": "Company",
+    "links": ["about", "contact", "terms & conditions", "Privacy Policy"]
+  }
+]
