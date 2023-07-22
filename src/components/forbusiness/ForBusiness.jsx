@@ -34,7 +34,7 @@ const ForBusiness = () => {
         style={{
           padding: "20px 6%",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit,minmax(500px,1fr))",
+          gridTemplateColumns: "repeat(auto-fit,minmax(400px,1fr))",
           gridGap: "20px",
         }}
       >

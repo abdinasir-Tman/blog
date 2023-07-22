@@ -38,7 +38,7 @@ get it anytime anywhere.`,
   ];
   const cardContainer = {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
     gridGap: "20px",
     padding: "50px 7%",
     minHeight: "500px",
