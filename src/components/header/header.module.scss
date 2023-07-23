@@ -59,13 +59,13 @@
   position: relative;
   //   background-color: black;
   ul {
-    position: sticky;
-    top: 0;
+    position: absolute;
+    top: 50px;
     right: 0;
     left: 0;
     width: fit-content;
     font-size: 14px;
-    background-color: transparent;
+    background-color: white;
 
     li {
       display: block;
@@ -109,6 +109,13 @@
   visibility: hidden;
 }
 @media screen and (max-width: 768px) {
+  .menue {
+    ul {
+      position: sticky;
+      top: 0;
+      background-color: transparent;
+    }
+  }
   .burger {
     visibility: visible;
   }
