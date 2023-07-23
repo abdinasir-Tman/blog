@@ -49,15 +49,15 @@ const Header = () => {
           alt=""
         />
       </a>
-      <ul>
+      <ul className={main_menue}>
         <LiaTimesSolid
           className={style.burger}
           onClick={() => setBurger(!burger)}
         />
-        <li className={style.main_menue}>
+        <li>
           <a href="#">Ras App</a>
         </li>
-        <li className={style.menue} mainMenue={style.main_menue}>
+        <li className={style.menue}>
           <a href="#home" onClick={() => setMenue(!menue)}>
             Local Sharafdin <AiFillCaretUp id="rotateIcon" />
           </a>
@@ -77,7 +77,7 @@ const Header = () => {
             </li>
           </ul>
         </li>
-        <li className={style.main_menue}>
+        <li>
           <a href="#">Downloads</a>
         </li>
         <li className={style.search}>
