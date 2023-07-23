@@ -49,7 +49,7 @@ const Header = () => {
           alt=""
         />
       </a>
-      <ul className={main_menue}>
+      <ul className={style.main_menue}>
         <LiaTimesSolid
           className={style.burger}
           onClick={() => setBurger(!burger)}
