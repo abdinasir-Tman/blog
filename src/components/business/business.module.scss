@@ -45,7 +45,7 @@
     height: 100%;
   }
 }
-@media sreen and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .flex {
     flex-direction: column;
   }
@@ -58,6 +58,9 @@
   // }
   .left_side button {
     padding: 10px 20px;
-    font-size: 14px;
+    // font-size: 14px;
+  }
+  .left_side {
+    padding: 40px 20px;
   }
 }
